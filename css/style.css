@@ -20,6 +20,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto 1fr;
+    grid-gap: 1.5vw;
     grid-template-areas:
         "h h h"
         "c c c"
@@ -110,10 +111,9 @@ nav ul li:hover .-color-white {
 }
 
 #main {
-    
     grid-area: m;
     grid-row-start: 2;
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
 }
 
 .main-section {
