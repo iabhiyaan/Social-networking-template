@@ -63,6 +63,19 @@ nav {
     background-color: #ccc;
 }
 
+.badge {
+    border-radius: 50%;
+    padding: 2px 9px;
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #4CAF50;
+}
+
 .-p-r {
     padding-right: 12px;
 }
@@ -118,7 +131,7 @@ nav ul li:hover .-color-white {
 
 .main-section {
     display: grid;
-    grid-template-columns: 1.5fr 3fr 1fr;
+    grid-template-columns: 1.5fr 3fr 1.5fr;
     grid-gap: 2vw;
     /* outline: 1px solid green; */
     position: relative;
@@ -138,6 +151,66 @@ nav ul li:hover .-color-white {
     background: #fff;
     border-radius: 6px;
     margin-bottom: 20px;
+}
+
+.events {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+    background: #7d97a5;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.event__item {
+    padding: 10px 16px;
+}
+
+.event__item:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.mx-16 {
+    margin-right: 16px;
+}
+
+.interests {
+    background: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: 10px 16px;
+}
+
+.inline-block {
+    display: inline-block;
+    background: red;
+    margin: 4px 0;
+    padding: 4px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.-color-303E45 {
+    background: #303E45;
+}
+
+.-color-57707D {
+    background: #57707D;
+}
+
+.-color-DFE5E8 {
+    background: #DFE5E8;
+    color: #000;
+}
+
+.-color-F5F7F8 {
+    background: #F5F7F8;
+    color: #000;
 }
 
 .-text-center {
@@ -220,6 +293,20 @@ hr {
     color: #000;
 }
 
+.btn-green {
+    background: #4CAF50;
+    margin-right: -5px;
+}
+
+.btn-red {
+    background: #f44336;
+}
+
+.btn-both {
+    color: #fff;
+    padding: 12px 45px;
+}
+
 .news-feed {
     background: #fff;
     padding: 10px 16px;
@@ -285,7 +372,7 @@ hr {
 }
 
 .sidebar-img img {
-    width: 100%;
+    width: 70%;
 }
 
 .p-10 {
