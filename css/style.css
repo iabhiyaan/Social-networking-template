@@ -126,6 +126,7 @@ nav ul li:hover .-color-white {
 #main {
     grid-area: m;
     grid-row-start: 2;
+    margin-bottom: 90px;
     /* outline: 1px solid black; */
 }
 
@@ -389,4 +390,21 @@ hr {
 
 .btn-grey:hover {
     background: #CCC;
+}
+
+#footer {
+    background: #435761;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.fb {
+    text-decoration: none;
+    color: #f7f7f7cc;
 }
